@@ -17,6 +17,7 @@ and everything will go back to its normal state */
   width: 80px;
   height: 80px;
   text-align: center;
+  margin: 100px auto;
 }
 
 /* original */
@@ -28,5 +29,4 @@ and everything will go back to its normal state */
   width: 80px;
   height: 80px;
   text-align: center;
-  margin: 100px auto;
 }*/
