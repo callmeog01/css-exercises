@@ -1,16 +1,32 @@
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .container {
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
-  text-align: center;
 }
+/* Mine, remove the margin: 100px auto;
+and everything will go back to its normal state */
 
 .box {
   background: palevioletred;
   font-weight: bold;
-  text-align: center;
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  text-align: center;
 }
+
+/* original */
+
+/*.box {
+  background: palevioletred;
+  font-weight: bold;
+  border: 6px solid maroon;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 100px auto;
+}*/
