@@ -15,11 +15,24 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-weight: bold;
+}
+
+.text {
+  margin: 12px 0;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1em .8em 1em 3em;
+  justify-content: center;
+}
+
+section {
+  display: flex;
 }
 
 .icon {
@@ -57,10 +70,12 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  font-weight: bold;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  font-weight: bold;
 }
