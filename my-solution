@@ -1,0 +1,11 @@
+I handled this project in a very different way than it was rendered
+previously the notifications bar was a button so i changed it to p tag 
+so that when i flex it together with the image the background will not expand more
+than the original padding it was given 
+
+
+I nested the logo and the links in a div and did the same to the notification bar
+and the image
+
+when I looked at the solution there were some differences but the instruction was to get to 
+at least do something similar to the project that was given

@@ -5,15 +5,25 @@ you'll learn about it later. */
 body {
   margin: 0;
   background: #eee;
-  font-family: Besley, serif;
+  font-family: besley, serif;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  display: flex;
   justify-content: space-between;
+  display: flex;
+  padding: 10px;
+}
+
+.header .one  {
+  display: flex;
+}
+
+
+.header .two  {
+  display: flex;
 }
 
 .profile-image {
@@ -22,6 +32,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  margin: 12px;
 }
 
 .logo {
@@ -31,7 +42,7 @@ body {
   font-style: italic;
 }
 
-button {
+.notifications {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -48,3 +59,11 @@ a {
 ul {
   list-style-type: none;
 }
+ul li {
+  display: inline-block;
+  margin: 0 14px;
+}
+
+
+
+
