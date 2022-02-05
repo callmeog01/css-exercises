@@ -17,7 +17,7 @@ body {
 
 .header {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .text {
@@ -28,7 +28,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 1em 0 1em 3em;
+  padding: 1em ;
   justify-content: center;
   display: flex;
 }
