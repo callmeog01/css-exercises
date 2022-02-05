@@ -45,7 +45,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 
@@ -61,11 +60,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 button.continue {
