@@ -54,6 +54,7 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 0 10px;
 }
 
 ul {
@@ -61,8 +62,8 @@ ul {
 }
 ul li {
   display: inline-block;
-  margin: 0 14px;
 }
+
 
 
 
