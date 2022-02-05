@@ -17,23 +17,22 @@ body {
 
 .header {
   font-weight: bold;
+  font-size: 22px;
 }
 
 .text {
   margin: 12px 0;
-}
+} 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 1em .8em 1em 3em;
+  padding: 1em 0 1em 3em;
   justify-content: center;
-}
-
-section {
   display: flex;
 }
+
 
 .icon {
   color: royalblue;
@@ -46,7 +45,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
+
+
 
 .close-button {
   background: #eee;
@@ -78,4 +80,18 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
   font-weight: bold;
+}
+
+.info .warning {
+  display: flex;
+}
+
+
+.warning {
+  justify-content: space-between;
+}
+
+.info  {
+  margin-left: 1.2em;
+  flex-shrink: 1;
 }
