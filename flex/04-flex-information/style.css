@@ -5,11 +5,19 @@ body {
 
 .container {
   display: flex;
+  margin: 32px 0;
+  justify-content: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.fruits {
+  align-items: center;
+  padding: 32px;
+  width: 200px;
 }
 
 .title {
