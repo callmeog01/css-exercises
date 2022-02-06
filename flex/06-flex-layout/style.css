@@ -43,6 +43,7 @@ li a{
   justify-content: space-between;
 }
 
+
 .left-links {
   display: flex;
 }
@@ -54,12 +55,13 @@ li a{
 
 .header {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer {
   display: flex;
-}
-
-.footer li  {
   justify-content: space-between;
+  bottom: 0;
+  position: fixed;
+  left: 0;
 }
