@@ -30,16 +30,17 @@ input {
 
 li {
   list-style: none;
+  justify-content: space-between;
+
 }
 
 a {
   text-decoration: none;
-  display: flex;
+  margin: 10px;
 }
 
-ul li{
-  
-  display: flex;
+li a{
+  justify-content: space-between;
 }
 
 .left-links {
@@ -47,6 +48,18 @@ ul li{
 }
 
 .right-links {
-    display: flex;
+  display: flex;
+}
 
+
+.header {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer li  {
+  justify-content: space-between;
 }
