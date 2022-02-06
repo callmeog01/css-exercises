@@ -31,26 +31,21 @@ input {
 li {
   list-style: none;
   justify-content: space-between;
-
 }
 
 a {
   text-decoration: none;
   margin: 10px;
-}
-
-li a{
-  justify-content: space-between;
+  color: black;
 }
 
 
-.left-links {
+.left-links, .right-links  {
   display: flex;
+
 }
 
-.right-links {
-  display: flex;
-}
+
 
 
 .header {
@@ -58,10 +53,12 @@ li a{
   justify-content: space-between;
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: space-between;
   bottom: 0;
   position: fixed;
   left: 0;
+  width: 100%;
+  background: #eeeeee;
 }
